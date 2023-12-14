@@ -21,8 +21,8 @@ def translate_json(json_data, source_lang='en', target_lang='tr'):
 
 # Ana fonksiyon
 def main():
-    input_file = 'input.json'  # Giriş dosyası yolu
-    output_file = 'translated.json'  # Çıkış dosyası yolu
+    input_file = 'streamit-extensions.po'  # Giriş dosyası yolu
+    output_file = 'translated.po'  # Çıkış dosyası yolu
 
     # JSON dosyasını yükle
     data = load_json(input_file)
